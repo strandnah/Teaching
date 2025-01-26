@@ -1,1 +1,1 @@
-Dieses Repository dint dazu meinen Freunden eine Einführung ins Programmieren und Git/GitHub zu liefern
+Dieses Repository dient dazu meinen Freunden eine Einführung ins Programmieren und Git/GitHub zu liefern
