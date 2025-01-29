@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Aufruf der Extra Java Script datei-->
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -22,23 +22,24 @@
 
   <div class="accordion">
 
-    <button class="accordion-button">Über mich</button>
-    <!-- Hidden class hinzugefügt -->
-    <div class="accordion-content hidden">
-      <p>
-        Hallo! Mein Name ist Lena, ich bin 19 Jahre alt.
-      </p>
+    <div class="accordion-button-container">
+      <button class="accordion-button" id="aboutMe-button">Über mich</button>
+      <button class="accordion-button" id="contact-button">Kontaktdaten</button>
     </div>
-
-    <button class="accordion-button">Kontaktdaten</button>
-    <!-- Hidden class hinzugefügt -->
-    <div class="accordion-content hidden">
-      <p><a class="email" href="mailto:lena.schwalm162@web.de">E-Mail</a></p>
-      <p><a class="instagram" href="https://www.instagram.com/lenaswl/">Instagram</a></p>
-      <p><a class="telefon" href="tel:+4915751858569">Telefon</a></p>
+    
+    <div class="accordion-content-container">
+      <div id="aboutMe-info" class="accordion-content hidden">
+        <p>
+          Hallo! Mein Name ist Lena, ich bin 19 Jahre alt.
+        </p>
+      </div>
+      <div id="contact-info" class="accordion-content hidden">
+        <p><a class="email" href="mailto:lena.schwalm162@web.de">E-Mail</a></p>
+        <p><a class="instagram" href="https://www.instagram.com/lenaswl/">Instagram</a></p>
+        <p><a class="telefon" href="tel:+4915751858569">Telefon</a></p>
+      </div>
     </div>
   </div>
-  <!-- Java Script in extra Datei verlegt  -->
 </body>
 
 </html>
